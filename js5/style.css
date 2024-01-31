@@ -1,0 +1,9 @@
+#card {
+	display: inline-flex;
+	width: 100px;
+	height: 100px;
+	background: green;
+	margin: 10px;
+	color: white;
+	font-size: 35px;
+}
