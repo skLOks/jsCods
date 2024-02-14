@@ -1,0 +1,252 @@
+body {
+  background-image: url("fon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  background: #969696;
+}
+
+a {
+  text-decoration: none;
+  color: #1c2045;
+  margin: 130px;
+  font-size: 25px;
+}
+
+.menu {
+  width: 270px;
+  height: 100%;
+  background: #cfcfcf;
+  position: fixed;
+  margin-top: -10px;
+  left: -270px;
+  transition: 0.5s;
+}
+
+.vidvin {
+  position: fixed;
+  left: 0px;
+  transition: 0.5s;
+}
+
+.but {
+  width: 50px;
+  height: 50px;
+  background: #cfcfcf;
+  position: fixed;
+  margin-left: 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+
+.but span {
+  display: block;
+  width: 40px;
+  text-align: center;
+  height: 5px;
+  background: black;
+  margin-top: 10px;
+  position: relative;
+  left: 5px;
+  top: 0px;
+  border-radius: 8px;
+}
+
+.otstup {
+  margin-left: 280px;
+  transition: 0.5s;
+}
+
+.list {
+  margin-left: -100px;
+}
+
+.memmenu {
+  width: 270px;
+  height: 173px;
+  background-image: url("negr.png");
+  position: fixed;
+  margin-top: -10px;
+  right: -270px;
+  transition: 0.5s;
+}
+
+.vidvin2 {
+  position: fixed;
+  right: 0px;
+  transition: 0.5s;
+}
+
+.but2 {
+  width: 50px;
+  height: 50px;
+  background: #cfcfcf;
+  position: relative;
+  margin-right: 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+
+.but2 span {
+  display: block;
+  width: 40px;
+  text-align: center;
+  height: 5px;
+  background: black;
+  margin-top: 10px;
+  position: relative;
+  left: 5px;
+  top: 8px;
+  border-radius: 8px;
+}
+
+.otstup2 {
+  margin-right: 280px;
+  transition: 0.5s;
+}
+
+.cont2 {
+  position: absolute;
+  right: 0px;
+}
+
+.input {
+  margin: 10px;
+  clear:both; 
+  text-align:right;
+
+}
+
+.town {
+  margin-top: 10px;
+}
+
+input[type="text"] {
+  height: 30px;
+  width: 300px;
+  border-radius: 8px;
+  background: #e5e5e5;
+  box-shadow: 2px 2px 2px #290366;
+}
+
+select {
+  height: 30px;
+  width: 280px;
+  border-radius: 8px;
+  margin-top: 10px;
+  background: #e5e5e5;
+  box-shadow: 2px 2px 2px #290366;
+}
+
+label {
+  float:left;
+  background-image: url("fon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  border-radius: 8px;
+}
+
+.reg2 {
+  position: relative;
+  top: 100px;
+  width: 390px;
+  margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border: 3px double #99033a;
+    border-radius: 8px;
+    color: white;
+}
+
+.cont3 {
+  position: relative;
+  top: -70px;
+  width: 500px;
+  height: 700px;
+  background-image: url("fonAi.jpg");
+  opacity: 0.8;
+  margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #070229;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+  position: relative;
+  width: 300px;
+  border-radius: 8px;
+  background: #e5e5e5;
+  box-shadow: 2px 2px 2px #290366;
+}
+
+input[type="radio"] {
+  position: relative;
+  left: -270px;
+  top: 5px;
+  float:right;
+  background: #a1a1a1;
+  box-shadow: 2px 2px 2px #290366;
+}
+
+.h1 {
+  position: absolute;
+  color: #ffbd7f;
+  display: flex;
+  font-size: 35px;
+  left: 120px;
+  top: 40px;
+}
+
+.star {
+  font-size: 35px;
+  color: #fff;
+}
+
+.error {
+  float:left;
+  color: red;
+  font-size: 15px;
+}
+
+.but3 {
+  margin-left: 140px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  background: #59038f;
+  color: white;
+}
+
+#p1 {
+  display: flex;
+  width: 500px;
+  background: white;
+  position: relative;
+  left: 500px;
+}
+
+.contP {
+  font-size: 10px;
+  color: white;
+  position: relative;
+  left: 30%;
+}
+
+.nadp {
+  color: white;
+  font-size: 35px;
+  margin-left: 100px;
+}
