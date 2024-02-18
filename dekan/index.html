@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+	<script defer src="main.js"></script>
+</head>
+<body>
+	<div class="ekrzag">
+		<h1>Загрузка...</h1>
+		<progress max="100" value="0" id="prog"></progress>
+	</div>
+	<div class="mainpage">
+		<input type="text" id="name"><br>
+		<button onclick="kartpage();" id="but">Next</button>
+	</div>
+	<div class="kart">
+		<div class="form_radio_btn" onclick="kartres(1);">
+			<input id="radio-1" type="radio" name="radio" value="1" checked>
+			<label class="radio-1" for="radio-1">Lock 1</label>
+		</div>
+		 
+		<div class="form_radio_btn" onclick="kartres(2);">
+			<input id="radio-2" type="radio" name="radio" value="2">
+			<label class="radio-2" for="radio-2">Lock 2</label>
+		</div>
+		 
+		<div class="form_radio_btn" onclick="kartres(3);">
+			<input id="radio-3" type="radio" name="radio" value="3">
+			<label class="radio-3" for="radio-3">Lock 3</label>
+		</div><br><br>
+		<button id="but" onclick="gamepage();">Start</button>
+	</div>
+	<div class="menusost">
+		<h1 id="timer">00:00</h1>
+		<h1 id="timeNow"></h1>
+		<h1 class="namepl"></h1>
+		<h1 class="helth"></h1>
+	</div>
+	<div class="player" style="display: none;">
+		<img src="player.gif">
+	</div>
+	<div class="gamepage">
+		<div class="vrag" style="left: 19%; top: 40%; animation-name: rotation${r}"> <img src="riba.png"> </div>
+	</div>
+	<div class="gameover">
+		<h1 class="hel"></h1>
+		<h1 class="time"></h1>
+		<h1 class="countV"></h1>
+		<button id="but" onclick="location.reload();" style="margin-top: 30px;">Play again</button>
+	</div>
+
+	<div class="finish"></div>
+</body>
+</html>

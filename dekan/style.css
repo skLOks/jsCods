@@ -1,0 +1,244 @@
+* {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+}
+
+body {
+  background-image: url('fon.jpeg');
+  background-size: cover;
+  height: 100%;
+}
+
+span {
+  display:block;
+}
+
+progress {
+  display: block;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20px;
+}
+
+.ekrzag {
+  display: block;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+  text-align: center;
+  color: red;
+}
+
+.mainpage {
+  display: none;
+  width: 700px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-image: url('fon.png');
+  background-size: cover;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px;
+}
+
+.mainpage input {
+  width: 400px;
+  height: 100px;
+  margin-top: 35%;
+  background: transparent;
+  border: none;
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  outline: none;
+}
+
+#but {
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  background: #b80606;
+  font-size: 35px;
+}
+
+.kart {
+  display: none;
+  width: 700px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-image: url('kartfon.png');
+  background-size: cover;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px;
+}
+
+.form_radio_btn {
+  margin-top: 300px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.form_radio_btn input[type=radio] {
+  display: none;
+}
+
+.form_radio_btn label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0px 15px;
+  line-height: 34px;
+  border: 1px solid #999;
+  border-radius: 6px;
+  user-select: none;
+}
+
+.form_radio_btn input[type=radio]:checked + label {
+  opacity: 1;
+}
+
+.radio-1 {
+  background-image: url('kart1.jpg');
+  opacity: 0.5;
+}
+
+.radio-2 {
+  background-image: url('kart2.jpg');
+  opacity: 0.5;
+}
+
+.radio-3 {
+  background-image: url('kart3.png');
+  opacity: 0.5;
+}
+
+.gamepage {
+  overflow: hidden;
+  display: none;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+.player {
+  position: absolute;
+  width: 20px;
+  height: 60px;
+  text-align: center;
+}
+
+.player img {
+  width: 60px;
+  position: relative;
+  right: 20px;
+}
+
+.vrag {
+  position: absolute;
+  width: 20px;
+  height: 60px;
+  text-align: center;
+}
+
+
+@keyframes rotation1 {
+    0% {
+        transform: translate(0px);
+    }
+    100% {
+        transform: translate(-50px, 0px);
+    }
+}
+
+@keyframes rotation2 {
+    0% {
+        transform: translate(0px);
+    }
+    100% {
+        transform: translate(50px, 0px);
+    }
+}
+
+@keyframes rotation3 {
+    0% {
+        transform: translate(0px);
+    }
+    100% {
+        transform: translate(0px, 50px);
+    }
+}
+@keyframes rotation4 {
+    0% {
+        transform: translate(0px);
+    }
+    100% {
+        transform: translate(0px, -50px);
+    }
+}
+
+.vrag {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  left: 1px;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  
+}
+
+.vrag img {
+  width: 60px;
+  position: relative;
+}
+
+.menusost {
+  display: none;
+}
+
+.lovushka {
+  position: absolute;
+  width: 60px;
+  border: 1px solid black;
+  height: 60px;
+}
+
+.lovushka img {
+  width: 60px;
+  position: relative;
+}
+
+.gameover {
+  display: none;
+  width: 700px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-image: url('konevskiy.jpg');
+  background-size: cover;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px;
+}
+
+.paused {
+    -webkit-animation-play-state:paused;
+    -moz-animation-play-state:paused;
+    -o-animation-play-state:paused; 
+    animation-play-state:paused;
+}
+
+.finish {
+  position: absolute;
+  display: none;
+  width: 60px;
+  height: 60px;
+  background-image: url('shaurma.png');
+  background-size: cover;
+  right: 10px;
+  bottom: 10px;
+}
